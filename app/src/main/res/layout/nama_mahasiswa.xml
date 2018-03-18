@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nama_mahasiswa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nurdiansyah.backgroundtask.NamaMahasiswa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List Nama Mahasiswa"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="mulai AsyncTask"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnPindah"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Pencarian Gambar"
+            android:layout_gravity="center"/>
+
+        <ListView
+            android:id="@+id/listMahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+        </ListView>
+
+    </LinearLayout>
+</RelativeLayout>
